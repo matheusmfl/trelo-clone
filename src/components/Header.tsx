@@ -4,6 +4,7 @@ import { MagnifyingGlassIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import Avatar from 'react-avatar'
 
 export function Header() {
+  console.log(process.env.NEXT_PUBLIC_APPWRITE_PROJECT_ID + 'AQUIIIII')
   return (
     <header>
       <div className="flex flex-col md:flex-row items-center p-5 bg-gray-500/10 rounded-b-2xl md:justify-between">
